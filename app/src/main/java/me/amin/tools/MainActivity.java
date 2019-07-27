@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (viewTag){
             case "asyncTask":
-                startActivity(new Intent(this,));
+                startActivity(new Intent(this, Methode_asyncTask.class));
                 break;
 
             default: break;
